@@ -1,0 +1,36 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+	/* Layout declrations */
+	padding: 96px 0;
+	/* Appearance declrations */
+	/*background-image: url('http://www.karenatlantahomes.com/wp-content/uploads/2017/04/image1.jpeg');*/
+  background-image: url('https://www.atlantaphotos.com/media/catalog/product/cache/1/image/0dc2d03fe217f8c83829496872af24a0/k/r/kr_philips_skyline.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 16px #423f4f;
+}
+
+h1.greeting {
+  /* Layout declarations */
+  text-align: center;
+  /* Appearance declarations */
+  color: tomato;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	letter-spacing: 0px;
+	text-shadow: 0px 0px 8px #423f4f;
+}
+
+h1.greeting:hoover {
+  animation-name: rollit;
+  animation-duration: 3s;
+}
+
+body {
+  background-color: lightblue;
+}
